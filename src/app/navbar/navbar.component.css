@@ -1,0 +1,34 @@
+/**************start header******************/
+.main_head{position: fixed; z-index: 999; top: 0; width: 100%; left: 0; right: 0; padding: 15px 0;}
+.main_head .container{display: flex; align-items: center; justify-content: space-between;}
+.logo_sec{float: left; margin-right: 20px;width: 200px;}
+.logo_sec img{max-width: 100%;}
+.top_menu{float: left;}
+.head_left{display: flex; align-items: center;}
+ul{margin: 0;padding: 0;list-style: none;}
+.page_banner .main_head .top_menu{float: right; width: 50%; text-align: right;}
+.top_menu ul li{display: inline-block;}
+.top_menu ul li a{display: inline-block; padding: 8px 0; margin: 0 20px; color: #46495b; text-transform: uppercase;
+font-size: 17px; font-family: 'Poppins'; text-decoration: none;position: relative;transition: 0.8s; -webkit-transition:  0.8s;}
+.top_menu ul li a:hover{color: #acbcd0; letter-spacing: 2px;}
+
+.navbar-fixed-top{transition: 0.8s; -webkit-transition:  0.8s;}
+.navbar-fixed-top.fixed-theme{background: #f0f7ff; padding: 5px 0; border-bottom: transparent;}
+.navbar-fixed-top.fixed-theme .container{padding-top: 5px; padding-bottom: 5px;}
+.fixed-theme .logo_sec  img{max-width: 85%; transition: all 0.8s; -webkit-transform: scale(0.9); -ms-transform: scale(0.9);
+transform: scale(0.9);}
+.fixed-theme .cov_19{display: none; transition: all 0.5s;}
+.navbar-fixed-top.fixed-theme .common_btn a{box-shadow: none;}
+
+.head_right ul li{display: inline-block; margin-left: 20px; transition: 1s;}
+.head_right ul li a{display: inline-block; transition: 1;}
+.head_right ul li:hover{transform: translateY(-10px);}
+/**************end header******************/
+
+@media (min-width: 320px) and (max-width: 567px){
+	.head_left {width: 45%;}
+	.head_right{width: 55%;}
+	.head_right ul li {margin-left: 8px;}
+	 .nav-bar{top: 16px;}
+
+}     
